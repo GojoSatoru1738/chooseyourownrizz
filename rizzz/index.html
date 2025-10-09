@@ -1,54 +1,54 @@
+
 <html>
-    <head>
-        <script>
-            var x = 42;
-            console.log(x)
-          </script>
+<head>
+    <meta charset="UTF-8">
+    <title>JS Demo</title>
+    <script>
+        var x = 42;
+        console.log(x);
+    </script>
+</head>
+<body>
 
+    <script>
+        var x = "deez nuts";
+        console.log(x);
+    </script>
 
+    <!-- string example -->
+    <script>
+        let myString = "a word!";
+        let myOtherString = "42";
+        let tolietRizz = 2;
 
-    </head>
-    <body>
-        <script>
-            var x = "deez nuts";
-            console.log(x)
-          </script>
+        // This will output "422" because you're adding a string + number (concatenation)
+        console.log(myOtherString + tolietRizz);
 
-    </body>
+        // ERROR FIXED: This line was incorrect
+        // console.log("tolietRizz :" = numberOfChildren)
+        // It should be something like:
+        let numberOfChildren = 3;
+        console.log("tolietRizz:", numberOfChildren);
 
+        // conditional statements
+        let sega = 6;
+        let playstation = 7;
+        let nintendo = 9;
+        let steam = 1;
 
-<!-- string -->
-        <script>
-            let myString = "a word!";
-            let myOtherString = "42";
-            let tolietRizz = 2;
-            console.log ((myOtherString + tolietRizz))
-            console.log("tolietRizz :" = numberOfChildren)
+        if (steam > nintendo) {
+            console.log("steam is better!");
+        } else {
+            console.log("steam is actually worse bruh.");
+        }
 
+        if (steam < nintendo) {
+            console.log("mario is the goat???");
+        } else if (sega === 6) {
+            console.log("sega is ^!");
+        }
 
-            // condition equals skibii
-            let sega = 6;
-            let playstation = 7;
-            let nintendo = 9;
-            let steam = 1;
+    </script>
 
-            if(steam > nintendo) {
-                console.log("steam is better!");
-            } else {
-                console.log("steam is actually worse bruh.");
-            }
-            // this is a false statement so it doesnt print
-
-            if(steam < nintendo) {
-                console.log("mario is the goat???");
-            }
-            // this statement is true so it would print
-
-            else if(sega == 6) {
-                console.log("sega is ^!");
-            }
-                // else if only goes to the statement that is true, if none are true it just skips that code. if you use else though instead of else if it will print. 
-        </script>
-
-
+</body>
 </html>
